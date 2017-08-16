@@ -15,7 +15,7 @@ public class SpbTaskExecutorApplicationTests {
 	
 	@Test
 	public void contextLoads() {
-		for(int i = 0; i <10; i++){
+		for(int i = 0; i <20; i++){
 			taskService.doSomethingAsync1(i);
 			taskService.doSomethingAsync2(i);
 		}
